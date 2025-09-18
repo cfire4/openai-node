@@ -4,9 +4,9 @@
     "push": {
       "source": [
         {
-          "path": "./jsr.json",
-          "file_format": "angular_translate_json",
-          "tag": "app:language.json",
+          "path": "./src/resources/files.ts",
+          "file_format": "qt_ts",
+          "tag": "app:language.ts",
           "language": "en"
         }
       ]
@@ -14,9 +14,9 @@
     "pull": {
       "target": [
         {
-          "path": "./<language>.json",
-          "file_format": "angular_translate_json",
-          "tag": "app:language.json",
+          "path": "./src/resources/<language>.ts",
+          "file_format": "qt_ts",
+          "tag": "app:language.ts",
           "exclude_languages": [
             "en"
           ]
