@@ -4,7 +4,7 @@
     "push": {
       "source": [
         {
-          "path": "./tsc-multi.json",
+          "path": "./tsconfig.dist-src.json",
           "file_format": "angular_translate_json",
           "tag": "app:language.json",
           "language": "en"
