@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths:
-      - tsc-multi.json
+      - tsconfig.dist-src.json
   workflow_dispatch:
     inputs:
       push_targets:
