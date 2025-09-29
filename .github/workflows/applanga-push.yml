@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths:
-      - tsconfig.dist-src.json
+      - .prettierrc.json
   workflow_dispatch:
     inputs:
       push_targets:
